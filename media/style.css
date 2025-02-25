@@ -651,7 +651,49 @@ body {
 }
 
 
+.main6 {
+    min-height: 10rem;
+    width:100%;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    align-items: left;
+}
 
+.main6_dc_widget {
+    border-radius: var(--roundness);
+    border: 0;
+}
+
+.main6_dc_div {
+    margin: 2rem;
+    display: flex;
+    flex-direction: row;
+    background-color: var(--background2);
+    border-radius: var(--roundness);
+    max-width: 48rem;
+}
+
+.main6_dc_description_div {
+    display: flex;
+    flex-direction: column;
+}
+
+.main6_dc_description_title {
+    margin: 2rem;
+    text-align: left;
+    font-size:1.5rem;
+    font-weight: 700;
+
+}
+
+
+.main6_dc_description {
+    margin-left:1.5rem;
+    margin-right:1.5rem;
+    margin-bottom:1.5rem;
+    font-size:1.2rem;
+}
 
 
 
