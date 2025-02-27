@@ -147,7 +147,7 @@ body {
 }
 
 .mobile_navbar #mobile_navbar_links {
-    display: none;
+    display: flex;
     margin-top: 53px;
     flex-direction: column;
     align-items: center;
