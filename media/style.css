@@ -698,7 +698,7 @@ body {
 
 
 
-/* Copyright Text */
+
 
 .copyright {
     color: #ffffff99;
@@ -786,17 +786,22 @@ body {
         margin: .25rem;
     }
 }
+
+.row > .column {
+  padding: 20px;
+}
+ 
 .column {
   float: left;
-  width: 25%;
-  padding: 10px;
-  height: 250px; 
+  width: 45%;
+  height: 45%;
+  padding: 40px;
 }
 
 /* Clear floats after the columns */
 .row:after {
   content: "";
-  display: table;
+ 
   clear: both;
 }
 
