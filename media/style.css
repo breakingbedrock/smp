@@ -787,21 +787,27 @@ body {
     }
 }
 
-.row > .column {
-  padding: 20px;
-}
- 
-.column {
-  float: left;
-  width: 45%;
-  height: 45%;
-  padding: 40px;
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
-/* Clear floats after the columns */
+.column {
+  flex: 1 1 calc(25% - 20px);
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Clear any float issues */
 .row:after {
   content: "";
- 
+  display: table;
   clear: both;
 }
 
