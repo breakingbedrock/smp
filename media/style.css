@@ -230,6 +230,11 @@ body {
     margin-right: 1rem;
 }
 
+.iframe {
+    display: block;
+    margin: 10px auto;
+}
+
 .main1_actcent {
     font-weight: 800;
     color:var(--accent1);
